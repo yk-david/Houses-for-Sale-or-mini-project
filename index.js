@@ -1,5 +1,5 @@
-import { propertyForSaleArr } from "properties/propertyForSaleArr.js";
-import { placeholderPropertyObj } from "properties/placeholderPropertyObj.js";
+import { propertyForSaleArr } from "./properties/propertyForSaleArr.js";
+import { placeholderPropertyObj } from "./properties/placeholderPropertyObj.js";
 
 function getPropertyHtml(arr = [placeholderPropertyObj]) {
     return arr
