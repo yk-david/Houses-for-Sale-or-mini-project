@@ -6,7 +6,7 @@ function getPropertyHtml(arr = [placeholderPropertyObj]) {
         .map((property) => {
             return `
                 <section class="card">
-                    <img src="/images/${property.image}">
+                    <img src="./images/${property.image}">
                     <div class="card-right">
                         <h2>${property.propertyLocation}</h2>
                         <h3>${property.priceGBP}</h3>
