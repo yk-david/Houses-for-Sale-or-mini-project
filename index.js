@@ -1,5 +1,5 @@
-import { propertyForSaleArr } from "/properties/propertyForSaleArr.js";
-import { placeholderPropertyObj } from '/properties/placeholderPropertyObj.js';
+import { propertyForSaleArr } from "properties/propertyForSaleArr.js";
+import { placeholderPropertyObj } from "properties/placeholderPropertyObj.js";
 
 function getPropertyHtml(arr = [placeholderPropertyObj]) {
     return arr
@@ -48,4 +48,5 @@ This is the HTML template 👇. Replace everything in UPPERCASE with property da
 */
 
 /***** Modify 👇 by adding an argument to the function call ONLY. *****/
-document.getElementById("container").innerHTML = getPropertyHtml(propertyForSaleArr);
+document.getElementById("container").innerHTML =
+    getPropertyHtml(propertyForSaleArr);
